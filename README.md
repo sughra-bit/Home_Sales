@@ -11,6 +11,7 @@ In this challenge, we have to use our knowledge of SparkSQL to determine key met
 5. Answer the following questions using SparkSQL:
 
 # What is the average price for a four-bedroom house sold for each year? Round off your answer to two decimal places.
+
 +--------------------+----------+
 |round(avg(price), 2)|year(date)|
 +--------------------+----------+
@@ -19,6 +20,7 @@ In this challenge, we have to use our knowledge of SparkSQL to determine key met
 |           298353.78|      2020|
 |            300263.7|      2019|
 +--------------------+----------+
+
 # What is the average price of a home for each year it was built that has three bedrooms and three bathrooms? Round off your answer to two decimal places.
 +--------------------+----------+
 |round(avg(price), 2)|date_built|
